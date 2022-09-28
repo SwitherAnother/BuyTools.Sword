@@ -1,0 +1,13 @@
+game.ReplicatedStorage.ToolEvents.SwordEvents.onServerEvent:connect(function(player)
+	if player.leaderstats.Cash.Value >= 50 then
+		player.leaderstats.Cash.Value = player.leaderstats.Cash.Value - 50
+		game.ServerStorage.Tools.Sword:Clone().Parent = player.Backpack
+	end
+end)
+
+game.ReplicatedStorage.ToolEvents.SwordEvents.onServerEvent:connect(function(player)
+	if player.leaderstats.Cash.Value >= 50 then
+		player.leaderstats.Cash.Value = player.leaderstats.Csh.Value - 50
+		game.ServerStorage.Tools.Sword:Clone().Parent = player.Backpack
+	end
+end)

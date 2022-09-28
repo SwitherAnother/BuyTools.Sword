@@ -1,2 +1,0 @@
-# BuyTools.Sword
-readme
